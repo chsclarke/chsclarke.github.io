@@ -7,12 +7,23 @@ body{font-family:Helvetica;background-color:#635e5e;}h1,h2,h3,h4,h5,h6{font-weig
         max-width: 25rem;
         margin-bottom: 15px;
         image-radius: 15px;
+    	-webkit-transition: all ease .3s;
+    }
+    .portfolio-item:hover {
+    	transform: scale(1.1);
+    	-webkit-transition: all ease .3s;
+         transition: all ease .3s;
+         display: inline-block;
+    vertical-align: middle;
+
+    
     }
         .portfolio .portfolio-item .portfolio-item-caption {
             -webkit-transition: all ease .5s;
             transition: all ease .5s;
             opacity: 0;
             background-color: rgba(175, 166, 167, 0.9);
+
             box-shadow: 5px 5px 10px #3e3d3d;
         }
 .portfolio .portfolio-item .portfolio-item-caption:hover{opacity:1}
