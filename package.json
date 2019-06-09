@@ -31,7 +31,8 @@
         "gitrocket": "^1.0.6",
         "jquery": ">=3.4.0",
         "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0"
+        "magnific-popup": "^1.1.0",
+        "space-pull": "^1.0.13"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
